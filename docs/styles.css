@@ -1,0 +1,60 @@
+:root {
+    --background-color: #000246;
+    --base-link-color: #ffffff;
+
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Outfit', sans-serif;
+
+    --base-font-size: 1rem;
+    --h1-font-size: 4rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.5rem;
+    --h4-font-size: 1.25rem;
+
+}
+
+body {
+    background: var(--background-color);
+    color: #ffffff;
+    font: var(--base-font-size) / 1.6 var(--font-primary);
+}
+
+a {
+    font-family: var(--font-primary);
+    color: var(--base-link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* NAVIGATION BAR */
+.header {
+    display: flex;
+    align-items: center;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    padding: 1rem 5rem;
+}
+
+.logo {
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 33.33%;
+    gap: 36px;
+}
+
+.menu-item {
+    text-align: right;
+}
