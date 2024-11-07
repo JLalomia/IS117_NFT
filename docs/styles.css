@@ -387,9 +387,10 @@ main {
     margin-bottom: 10px;
 }
 
-.newsletter-form {
+.footer .newsletter-form {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .newsletter-form input[type="email"] {
@@ -397,7 +398,11 @@ main {
     border-radius: 20px;
     border: 1px solid #13135D;
     width: 200px;
-    margin-right: 10px;
+    margin-right: 0px;
+    background-color: #13135D;
+    color: #fff;
+    font-family: var(--font-primary);
+    font-size: 16px;
 }
 
 .submit-container {
@@ -412,12 +417,19 @@ main {
 
 .newsletter-form input[type="submit"] {
     background-color: #8D8DDB;
-    color: #13135D;
+    color: #fff;
+    font-family: var(--font-secondary);
+    font-weight: 600px;
+    font-size: 14px;
     border: none;
-    border-radius: 30%;
-    width: 90px;
-    height: 30px;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
     cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .gradient-line {
