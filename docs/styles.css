@@ -125,12 +125,14 @@ main {
 .featured p {
     text-align: left;
     margin-bottom: 1rem;
+    font-family: var(--font-secondary);
     font-weight: 600;
     font-size: 20px;
 }
 
 .featured-logos {
     background: linear-gradient(to right, rgba(99, 88, 189, 0.3), rgba(99, 88, 189, 1));
+    border-radius: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
