@@ -309,6 +309,11 @@ main {
     color: #fff;
 }
 
+.testimonial-card1, .testimonial-card2, .testimonial-card3 p {
+    font-size: 16px;
+    font-family: var(--font-primary);
+}
+
 /* ARE YOU READY */
 .AYR {
     text-align: center;
