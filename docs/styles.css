@@ -63,7 +63,7 @@ main {
     background-repeat: no-repeat;
     background-position: right center;
     background-size: contain;
-    height: 500px;
+    height: 540px;
     display: flex;
     align-items: center;
     padding: 2rem 5rem;
@@ -77,14 +77,15 @@ main {
 }
 
 .hero h1 {
+    font-family: var(--font-secondary);
     font-weight: bold;
-    font-size: 50px;
+    font-size: 83px;
     margin: 0;
 }
 
 .hero .blurb {
     font-family: var(--font-primary);
-    font-size: 1.25rem;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -100,13 +101,12 @@ main {
     text-decoration: none;
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 20px;
     letter-spacing: 30%;
 }
 
 .hero-buttons .button {
     background-color: #8D8DDB;
-    border: none;
     color: #fff;
 }
 
