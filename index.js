@@ -5,6 +5,7 @@ const app = express();
 
 // Set the static folder for serving HTML files
 app.use(express.static(path.join(__dirname, 'docs')));
+app.use('/images', express.static(path.join(__dirname, 'images')));
 
 // Define the route for the homepage
 app.get('/', (req, res) => {
