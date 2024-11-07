@@ -1,6 +1,5 @@
 :root {
     --background-color: #000246;
-    --base-link-color: #ffffff;
 
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Outfit', sans-serif;
@@ -19,28 +18,15 @@ body {
     font: var(--base-font-size) / 1.6 var(--font-primary);
 }
 
-h1, h2, h3, h4 {
-    font-family: var(--font-secondary);
-    text-transform: capitalize;
-}
-
-a {
-    font-family: var(--font-primary);
-    color: var(--base-link-color);
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 main {
     max-width: 1440px;
     margin: 0 auto;
 }
 
 /* NAVIGATION BAR */
-.header {
+.NavBar {
+    font-family: var(--font-secondary);
+    font-size: 20px;
     display: flex;
     align-items: center;
     line-height: 4rem;
@@ -61,7 +47,13 @@ main {
 }
 
 .menu-item {
+    color: #fff;
+    text-decoration: none;
     text-align: right;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
 }
 
 /* HERO SECTION */
