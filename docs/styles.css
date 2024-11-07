@@ -440,3 +440,18 @@ main {
     bottom: 0;
     left: 0;
 }
+
+.purple-circle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    object-fit: cover;
+}
+
+.aqua-circle {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    object-fit: cover;
+    transform: translateY(-30%);
+}
