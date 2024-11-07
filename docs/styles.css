@@ -316,3 +316,35 @@ main {
     font-size: 18px;
     color: #fff;
 }
+
+/* ARE YOU READY */
+.AYR {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #5151CA, #AAD9D9);
+    border-radius: 30px;
+}
+
+.AYR a {
+    color: #000000;
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.AYR h2 {
+    font-size: 57px;
+    font-weight: bold;
+    font-family: var(--font-secondary);
+    margin-bottom: 1rem;
+}
+
+.AYR .button {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 0.75rem 1.5rem;
+    border-radius: 83px;
+}
