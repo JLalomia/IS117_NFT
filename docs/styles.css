@@ -123,3 +123,30 @@ main {
     border: 2px solid #88D0D1;
     color: #fff;
 }
+
+/* FEATURED LOGOS */
+.featured {
+    text-align: center;
+    padding: 2rem 4rem;
+}
+
+.featured p {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.featured-logos {
+    background: linear-gradient(to right, rgba(99, 88, 189, 0.3), rgba(99, 88, 189, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    padding: 2rem 4rem;
+}
+
+.featured-logos img {
+    max-height: 50px;
+    object-fit: contain;
+}
