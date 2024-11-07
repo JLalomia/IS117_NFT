@@ -15,8 +15,13 @@
 
 body {
     background: var(--background-color);
-    color: #ffffff;
+    color: #fff;
     font: var(--base-font-size) / 1.6 var(--font-primary);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-secondary);
+    text-transform: capitalize;
 }
 
 a {
@@ -57,4 +62,64 @@ main {
 
 .menu-item {
     text-align: right;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: var(--background-color);
+    background-image: url('../images/computer.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 2rem 5rem;
+}
+
+.hero-content {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero .blurb {
+    font-family: var(--font-primary);
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-buttons .button,
+.hero-buttons .button-outline {
+    padding: 0.75rem 1.5rem;
+    border-radius: 83px;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 30%;
+}
+
+.hero-buttons .button {
+    background-color: #8D8DDB;
+    border: none;
+    color: #fff;
+}
+
+.hero-buttons .button-outline {
+    background-color: transparent;
+    border: 2px solid #88D0D1;
+    color: #fff;
 }
